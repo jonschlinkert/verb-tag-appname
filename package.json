@@ -1,0 +1,42 @@
+{
+  "name": "verb-tag-appname",
+  "description": "Attempts to derive the \"actual\" name of a grunt or gulp plugin, handlebars helper, tag, filter, yeoman generator or any other module by stripping certain words from the title, allowing it to be used in templates. For example, the \"actual\" name of `generator-foo` would `foo`.",
+  "version": "0.1.1",
+  "homepage": "https://github.com/jonschlinkert/verb-tag-appname",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/verb-tag-appname.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/verb-tag-appname/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/verb-tag-appname/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "verb": "~0.2.5",
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  },
+  "keywords": [
+    "verbtag",
+    "verb tag"
+  ],
+  "dependencies": {
+    "app-name": "^0.1.1"
+  }
+}
